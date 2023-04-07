@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+}
+.first-page{
+    background: #FEFBEA;
+    
+}
+#Home {
+    display: flex;
+    margin-top: 50px;
+    
+}
+.photo {
+    height: 600px;
+    width: 700px;
+    border-radius: 20px;
+    margin: 50px 75px;
+}
+h1 {
+    font-size: 80px;
+    font-weight: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 0px;
+}
+p {
+    font-size: 20px;
+    font-weight: 900px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    margin: 10px 0 40px 0;
+}
+h4 {
+    font-size: 25px;
+    font-weight: bolder;
+    margin-bottom: 0px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+a {
+    color: red;
+    display: flex;
+    font-weight: bolder;
+    font-size: 15px;
+    justify-content: center;
+    margin: 10px 0 15px 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.information {
+    text-align: center;
+    margin: auto 10px;
+    text-shadow: 0 0 5px rgb(255, 255, 255);
+    flex-shrink: 0;
+}
+.navbar {
+    overflow: hidden; 
+    background: rgb(171, 128, 137) ;
+    width: 100%;
+}
+.navbar a {
+    float: left; 
+    display: block;
+    color: white; 
+    text-align: center; 
+    padding: 14px 20px; 
+    text-decoration: none; 
+}
+.navbar a:hover {
+    background-color: #12adcc; 
+    color: rgb(120, 65, 65); 
+}
+.biography p{
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    text-transform:none;
+    width: 100%;
+}
+.biography{
+    margin: 330px 0 200px 0;
+    background: #e7e6e6;
+    padding: 90px 80px;
+}
+#About {
+    display: flex;
+    margin: 0 200px;
+    max-width: 30%;
+}
+.second-photo { 
+    width: 700px;
+    height: 400px;
+    margin: 150px 0 0 -25px;
+}
+.second-page {
+    background: #FFFFF0;
+}
+#social-media a{
+    margin: 10px 30px;
+    font-size: 30px;
+    padding: 30px 30px;
+    color: black;
+    border: 1px solid black;
+    border-radius: 40%;
+    text-decoration: none;
+    transition: .5s;
+}
+#social-media a:hover{
+    color: cyan;
+    border: 1px solid cyan;
+}
