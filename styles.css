@@ -135,6 +135,7 @@ a {
         font-size: 16px;
     }
     #About {
+        display: block;
         flex-wrap: wrap;
         margin: 0 auto;
         justify-content: center;
