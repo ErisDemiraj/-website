@@ -141,7 +141,7 @@ a {
     }
     .second-photo {
         display: block;
-        width: 100%;
+        width: 200%;
         height: 200px;
         margin: 25px 0;
     }
