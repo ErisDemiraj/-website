@@ -128,7 +128,7 @@ a {
         font-size: 14px;
     }
     .biography {
-        margin: 50px 0;
+        margin: 50px 25px;
         padding: 40px;
     }
     .biography p {
@@ -136,9 +136,8 @@ a {
     }
     #About {
         flex-wrap: wrap;
-        margin: 0 25px;
+        margin: 0;
         justify-content: center;
-        align-items: center;
     }
     .second-photo {
         width: 100%;
