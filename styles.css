@@ -106,7 +106,6 @@ a {
     border: 1px solid cyan;
 }
 @media (max-width: 768px) {
-    /* Home page */
     h1 {
         font-size: 50px;
     }
@@ -116,7 +115,7 @@ a {
     }
     .photo {
         height: 400px;
-        width: 100%;
+        width: 80%;
         margin: 50px 0;
         border-radius: 0;
     }
@@ -124,14 +123,10 @@ a {
         display: block;
         margin-top: 0;
     }
-    
-    /* Navbar */
     .navbar a {
         padding: 10px 15px;
         font-size: 14px;
     }
-    
-    /* Biography */
     .biography {
         margin: 50px 0;
         padding: 40px;
@@ -139,10 +134,7 @@ a {
     .biography p {
         font-size: 16px;
     }
-    
-    /* About section */
     #About {
-        flex-wrap: wrap;
         margin: 0;
         justify-content: center;
     }
@@ -151,8 +143,6 @@ a {
         height: 300px;
         margin: 50px 0;
     }
-    
-    /* Social media icons */
     #social-media a {
         font-size: 20px;
         padding: 20px 20px;
