@@ -116,19 +116,19 @@ a {
     .photo {
         height: 400px;
         max-width: 90%;
-        margin: 50px 0 50px 25px;
+        margin: 5%;
         border-radius: 0;
     }
     #Home {
         display: block;
-        margin-top: 0;
+        margin-top: 5%;
     }
     .navbar a {
         padding: 10px 15px;
         font-size: 14px;
     }
     .biography {
-        margin: 50px 25px;
+        margin: 5%;
         padding: 40px;
     }
     .biography p {
@@ -137,13 +137,13 @@ a {
     #About {
         flex-wrap: wrap;
         display: inline;
-        margin: 10px;
+        margin: 5%;
         justify-content: center;
     }
     .second-photo {
         max-width: 80%;
         height: 300px;
-        margin: 30px 0 50px 50px;
+        margin: 5%;
     }
     #social-media a {
         font-size: 20px;
